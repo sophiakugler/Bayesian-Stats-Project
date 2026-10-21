@@ -727,6 +727,19 @@ wheels = [
 ]
 
 [[package]]
+name = "emcee"
+version = "3.1.6"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy", version = "2.4.6", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.12'" },
+    { name = "numpy", version = "2.5.4", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.12'" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/cb/53/1045ee878cb24281387079f8ee4f0ade1622c6aae1ed1fd91a53e4fa5b19/emcee-3.1.6.tar.gz", hash = "sha256:11af4daf6ab8f9ca69681e3c29054665db7bbd87fd4eb8e437d2c3a1248c637d", size = 2871117, upload-time = "2024-04-19T10:03:19.555Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/f9/ef/2196b9bf88ffa1bde45853c72df021fbd07a8fa91a0f59a22d14a050dc04/emcee-3.1.6-py2.py3-none-any.whl", hash = "sha256:f2d63752023bdccf744461450e512a5b417ae7d28f18e12acd76a33de87580cb", size = 47351, upload-time = "2024-04-19T10:03:17.522Z" },
+]
+
+[[package]]
 name = "executing"
 version = "2.3.0"
 source = { registry = "https://pypi.org/simple" }
@@ -834,6 +847,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "astropy" },
     { name = "batman" },
+    { name = "emcee" },
     { name = "ipykernel" },
     { name = "ipython" },
     { name = "jupyterlab" },
@@ -849,6 +863,7 @@ dependencies = [
 requires-dist = [
     { name = "astropy", specifier = ">=8.0.2" },
     { name = "batman", specifier = ">=0.4.1" },
+    { name = "emcee", specifier = ">=3.1.6" },
     { name = "ipykernel", specifier = ">=6.29" },
     { name = "ipython", specifier = ">=8.30" },
     { name = "jupyterlab", specifier = ">=4.3" },
