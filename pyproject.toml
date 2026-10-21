@@ -1,0 +1,24 @@
+[project]
+name = "hd137010b-bayes"
+version = "0.1.0"
+description = "Bayesian analysis of the K2 transit photometry of HD 137010 b"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "Nicolas Volken" },
+    { name = "Ian Röthlisberger" },
+    { name = "Denis Titov" },
+    { name = "Sophia Kugler" },
+]
+
+dependencies = [
+    "numpy>=2.1",
+    "scipy>=1.14",
+    "pandas>=2.2",
+    "matplotlib>=3.9",
+    "ipython>=8.30",
+    "ipykernel>=6.29",
+    "jupyterlab>=4.3",
+]
+
+

@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+
+.venv/
+venv/
+.env
+
+.uv-cache/
+
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+.ipython/
+
+.DS_Store
