@@ -19,6 +19,8 @@ dependencies = [
     "ipython>=8.30",
     "ipykernel>=6.29",
     "jupyterlab>=4.3",
+    "astropy>=8.0.2",
+    "batman>=0.4.1",
 ]
 
 
